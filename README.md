@@ -5,7 +5,7 @@ Implementation of TreeGCN-GAN paper.
 * ModelNet10 dataset is used.
 * To sample pointcloud from mesh:
   * https://medium.com/@daviddelaiglesiacastro/3d-point-cloud-generation-from-3d-triangular-mesh-bbb602ecf238
-  * https://math.stackexchange.com/a/1951650
+  * Area of triangle with 3 coordinates: https://math.stackexchange.com/a/1951650
   * https://www.youtube.com/watch?v=HYAgJN3x4GA
 * Data generation code is present in Point_Sampling_From_Mesh folder.
 * ModelNet10 numpy format dataset: [Link](https://drive.google.com/file/d/19VSP44tRHW-w9sIv8aHkXJgWqROSp5nU/view?usp=sharing)
