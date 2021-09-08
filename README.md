@@ -9,6 +9,9 @@ Implementation of TreeGCN-GAN paper.
   * https://www.youtube.com/watch?v=HYAgJN3x4GA
 * Data generation code is present in Point_Sampling_From_Mesh folder.
 
+# Observations / Notes
+* Keeping high value for batch size helps model, in learning better real world distribution for pointcloud data.
+
 # Todo Task
 * <strike> Explaination of the data generation part.</strike>
 * How to run the code.
