@@ -8,6 +8,7 @@ Implementation of TreeGCN-GAN paper.
   * https://math.stackexchange.com/questions/128991/how-to-calculate-the-area-of-a-3d-triangle
   * https://www.youtube.com/watch?v=HYAgJN3x4GA
 * Data generation code is present in Point_Sampling_From_Mesh folder.
+* ModelNet10 numpy format dataset: [Link](https://drive.google.com/file/d/19VSP44tRHW-w9sIv8aHkXJgWqROSp5nU/view?usp=sharing)
 
 # Observations / Notes
 * Keeping high value for batch size helps model, in learning better real world distribution for pointcloud data.
@@ -58,8 +59,7 @@ Implementation of TreeGCN-GAN paper.
 
 # Todo Task
 * <strike> Explaination of the data generation part.</strike>
-* How to run the code.
-* Add results.
+* <strike> Add results.</strike>
 
 # Reference
 [1] [3D Point Cloud Generative Adversarial Network Based on Tree Structured Graph Convolutions](https://arxiv.org/abs/1905.06292) [ Dong Wook Shu, Sung Woo Park, Junseok Kwon ]
