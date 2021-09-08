@@ -12,6 +12,50 @@ Implementation of TreeGCN-GAN paper.
 # Observations / Notes
 * Keeping high value for batch size helps model, in learning better real world distribution for pointcloud data.
 
+# Results
+  <table style="width:100%; height:100%; border:none;">
+          <tr>
+               <td>
+                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/65010.png" style="width:128px; height:128px;"/>
+               </td>
+               <td>
+                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/65030.png" style="width:128px; height:128px;"/>
+               </td>
+               <td>
+                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/65259.png" style="width:128px; height:128px;"/>
+               </td>
+               <td>
+                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/65279.png" style="width:128px; height:128px;"/>
+               </td>
+               <td>
+                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/65508.png" style="width:128px; height:128px;"/>
+               </td>
+               <td>
+                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/65528.png" style="width:128px; height:128px;"/>
+               </td>
+          </tr>
+          <tr>
+               <td>
+                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/65757.png" style="width:128px; height:128px;"/>
+               </td>
+               <td>
+                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/65777.png" style="width:128px; height:128px;"/>
+               </td>
+               <td>
+                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/66006.png" style="width:128px; height:128px;"/>
+               </td>
+               <td>
+                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/66026.png" style="width:128px; height:128px;"/>
+               </td>
+               <td>
+                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/66255.png" style="width:128px; height:128px;"/>
+               </td>
+               <td>
+                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/66275.png" style="width:128px; height:128px;"/>
+               </td>
+          </tr>
+  </table>
+
 # Todo Task
 * <strike> Explaination of the data generation part.</strike>
 * How to run the code.
