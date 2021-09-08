@@ -38,7 +38,7 @@ class TreeGCN(Model):
 			next_level = self.F_K[1]( self.F_K[0]( next_level ) )
 			next_level = next_level + tf.reshape(tf.tile(Gath, [1, 1, self.degree]), [self.batch_size, -1, self.out_feat])
 		else:
-			next_level = sself.F_K[1]( self.F_K[0]( tree[-1] ) )
+			next_level = self.F_K[1]( self.F_K[0]( tree[-1] ) )
 			next_level = next_level + Gath
 		# Step 3: Add bias and Pass it through Activation function
 		if self.activation:
