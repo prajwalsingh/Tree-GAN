@@ -11,7 +11,7 @@ Implementation of TreeGCN-GAN paper.
 * ModelNet10 numpy format dataset: [Link](https://drive.google.com/file/d/19VSP44tRHW-w9sIv8aHkXJgWqROSp5nU/view?usp=sharing)
 
 # Observations / Notes
-* Keeping high value for batch size helps model, in learning better real world distribution for pointcloud data.
+* Keeping larger values for batch size helps model, in learning better real world distribution for pointcloud data.
 
 # Pre-trained model
 * Download pre-trained model from googl drive: [Link](https://drive.google.com/drive/folders/1BB39jONorejKfLeO4UQX84t3OlpSowQ0?usp=sharing)
