@@ -28,7 +28,7 @@ if __name__ == '__main__':
 	critic_opt  = tf.keras.optimizers.Adam(lr=1e-4, beta_1=0.5, beta_2=0.9)
 	ckpt        = tf.train.Checkpoint(step=tf.Variable(1), model=model, gopt=gen_opt, copt=critic_opt)
 	manager     = tf.train.CheckpointManager(ckpt, directory='treegan_ckpt', max_to_keep=10)
-	ckpt.restore(manager.latest_checkpoint)
+	ckpt.restore(manager.latest_checkpoint).expect_partial()
 	EPOCHS      = 5000
 	START       = int(ckpt.step) // len(train_batch) + 1
 	save_freq   = 100
