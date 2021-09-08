@@ -13,6 +13,10 @@ Implementation of TreeGCN-GAN paper.
 # Observations / Notes
 * Keeping high value for batch size helps model, in learning better real world distribution for pointcloud data.
 
+# Pre-trained model
+* Download pre-trained model from googl drive: [Link](https://drive.google.com/drive/folders/1BB39jONorejKfLeO4UQX84t3OlpSowQ0?usp=sharing)
+* Keep treegan_ckpt folder as it is in code directory.
+
 # Results
   <table style="width:100%; height:100%; border:none;">
           <tr>
