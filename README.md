@@ -1,4 +1,4 @@
-# TreeGCN-GAN
+# Tree-GAN
 Implementation of Tree-GAN paper.
 
 # Dataset Generation Step
