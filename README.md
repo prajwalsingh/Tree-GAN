@@ -1,5 +1,5 @@
 # TreeGCN-GAN
-Implementation of TreeGCN-GAN paper.
+Implementation of Tree-GAN paper.
 
 # Dataset Generation Step
 * ModelNet10 dataset is used.
