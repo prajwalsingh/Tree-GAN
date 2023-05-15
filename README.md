@@ -8,13 +8,13 @@ Implementation of Tree-GAN paper.
   * Area of triangle with 3 coordinates: https://math.stackexchange.com/a/1951650
   * https://www.youtube.com/watch?v=HYAgJN3x4GA
 * Data generation code is present in Point_Sampling_From_Mesh folder.
-* ModelNet10 numpy format dataset: [Link](https://drive.google.com/file/d/19VSP44tRHW-w9sIv8aHkXJgWqROSp5nU/view?usp=sharing)
+* ModelNet10 numpy format dataset: [Link](https://iitgnacin-my.sharepoint.com/:u:/g/personal/singh_prajwal_iitgn_ac_in/EdB_Nt-EV5dd4Q8uOmt_CxwBzJyOKkZUIfjsHMLyUqBXaQ?e=ijCI0O)
 
 # Observations / Notes
 * Keeping larger values for batch size helps model in learning better distribution for pointcloud data.
 
 # Pre-trained model
-* Download pre-trained model from googl drive: [Link](https://drive.google.com/drive/folders/1BB39jONorejKfLeO4UQX84t3OlpSowQ0?usp=sharing)
+* Download pre-trained model from googl drive: [Link](https://iitgnacin-my.sharepoint.com/:f:/g/personal/singh_prajwal_iitgn_ac_in/EhKRVyr3WcRDi35VAx0FDBwBIilIFSumcvowr_zvUkcPzw?e=2iOm29)
 * Keep treegan_ckpt folder as it is in code directory.
 
 # Results
